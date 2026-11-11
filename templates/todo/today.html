@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block title %}Today's Tasks · To Do List{% endblock %}
+
+{% block content %}
+  <h2>Today</h2>
+  {% include "todo/task_table.html" %}
+{% endblock %}
